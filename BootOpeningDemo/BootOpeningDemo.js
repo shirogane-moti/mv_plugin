@@ -206,6 +206,6 @@
                 }
             }
         }
-        _Game_Interpreter_executeCommand.call(this);
+        return _Game_Interpreter_executeCommand.call(this);
     }
 })();
