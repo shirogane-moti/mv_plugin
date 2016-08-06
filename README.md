@@ -58,14 +58,14 @@ RPGツクールMVのプラグインを置いています
         * fonts/フォルダに利用したいフォントファイルを配置します
         * gamefont.cssに追加で利用したいフォントを@font-faceで定義してください
 
-    @font-face {
-      font-family: GameFont;
-      src: url("mplus-1m-regular.ttf");
-    }
-    @font-face{
-      font-family: GameFont2;
-      src: url("xxx.ttf");
-    }
+        @font-face {
+          font-family: GameFont;
+          src: url("mplus-1m-regular.ttf");
+        }
+        @font-face {
+          font-family: GameFont2;
+          src: url("xxx.ttf");
+        }
 
 * ツクールからの設定
         * js/pluginsフォルダ直下にMultiFont.jsを入れてください
