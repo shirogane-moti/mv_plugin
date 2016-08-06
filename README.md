@@ -49,14 +49,22 @@ RPGツクールMVのプラグインを置いています
 
 * メッセージウインドウやメニューなどゲーム中すべてのフォントを変更します
 * gamefont.cssに追加で定義した@font-faceを利用できるようになります
-        * プラグインパラメータから、起動時のフォントを変更することができます
-        * プラグインコマンドから、ゲーム中にフォントを変更することができます
+	* プラグインパラメータにより、起動時からフォントを変更することができます
+	* プラグインコマンドにより、ゲーム中にフォントを変更することができます
 
 ### 使い方 ###
 
 * 下準備
-        * fonts/フォルダに利用したいフォントファイルを配置します
-        * gamefont.cssに追加で利用したいフォントを@font-faceで定義してください
+	* fonts/フォルダに利用したいフォントファイルを配置します
+	* gamefont.cssに追加で利用したいフォントを`@font-face`で定義してください
+* ツクールからの設定
+	* js/pluginsフォルダ直下にMultiFont.jsを入れてください
+	* RPGツクールMVエディタからプラグインを有効にしてください
+	* プラグインパラメータから起動時のフォントを設定します
+		* initFontFamily : 起動時に使用する`font-family:`を入力します
+	* プラグインコマンドからゲーム中にフォントを変更します
+		* MultiFont change font-family  (font-familyにはgamefont.cssに定義した`font-family:`を指定してください)
+* gamefont.cssの例
 
         @font-face {
           font-family: GameFont;
@@ -66,15 +74,6 @@ RPGツクールMVのプラグインを置いています
           font-family: GameFont2;
           src: url("xxx.ttf");
         }
-
-* ツクールからの設定
-        * js/pluginsフォルダ直下にMultiFont.jsを入れてください
-        * RPGツクールMVエディタからプラグインを有効にしてください
-        * プラグインパラメータから起動時のフォントを設定します
-                * initFontFamily : 起動時に使用するfont-family:を入力します
-        * プラグインコマンドからゲーム中にフォントを変更します
-                * MultiFont change font-family  (font-familyにはgamefont.cssに定義したfont-family:を指定してください)
-
 
 # 連絡先 #
 
