@@ -78,6 +78,29 @@ RPGツクールMVのプラグインを置いています
 
 ※ `GameFont`の定義を消すとエラーになります
 
+## URLQueryManager ##
+
+### サンプル ###
+
+まだありません
+
+### 仕様 ###
+
+* Webブラウザに入力されたURLクエリ(?str=aabbcc&value=12200のような文字列)をプラグインコマンドによって取得することができます。
+* 取得された値はプラグインコマンドによってスイッチ、変数、アクターの名前に格納されます
+
+### 使い方 ###
+
+* js/pluginsフォルダ直下にMultiFont.jsを入れてください
+* RPGツクールMVエディタからプラグインを有効にしてください
+* 次のプラグインコマンドによってスイッチ、変数、アクターの名前に値を取得してください
+	* `URLQueryManager defined [key] [switch_id]`
+		* URLクエリのkey(str=aabbccのstrの部分)が存在していたらswitch_idで指定したスイッチをONにします
+	* `URLQueryManager getName [key] [actor_id]`
+		* URLクエリのkeyに設定された値をactor_idで指定したアクターの名前に格納します
+	* `URLQueryManager getValue [key] [variable_id]`
+		* URLクエリのkeyに設定された値をvariable_idで指定した変数に格納します
+
 # 連絡先 #
 
 * スモールオメガω : http://smallomega.com
