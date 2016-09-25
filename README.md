@@ -6,12 +6,17 @@ RPGツクールMVのプラグインを置いています
 
 使用報告も不要ですがご連絡いただけた方がサポートなどしやすいと思います
 
+## サンプルダウンロード ##
+
+BootOpeningDemo,URLQueryManagerのサンプルで同じプロジェクトファイルに入っています
+
+* [サンプルプロジェクトのダウンロード](http://smallomega.com/download/mvplugins/project_BootOpeningDemo.zip)
+
 ## BootOpeningDemo ##
 
 ### サンプル ###
 
 * [Web上でサンプルを見る](http://smallomega.com/download/mvgame/RapidQuest/index.html)
-* [サンプルプロジェクトのダウンロード](http://smallomega.com/download/mvplugins/project_BootOpeningDemo.zip)
 
 ### 仕様 ###
 
@@ -82,7 +87,7 @@ RPGツクールMVのプラグインを置いています
 
 ### サンプル ###
 
-まだありません
+* [Web上でサンプルを見る](http://smallomega.com/download/mvgame/RapidQuest/?chapter=URLQuery)
 
 ### 仕様 ###
 
