@@ -110,4 +110,5 @@ BootOpeningDemo,URLQueryManagerのサンプルで同じプロジェクトファ�
 # 連絡先 #
 
 * スモールオメガω : http://smallomega.com
+* Twitter : @shirogane_moti
 * シロガネ
