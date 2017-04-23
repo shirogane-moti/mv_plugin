@@ -16,7 +16,8 @@ BootOpeningDemo,URLQueryManagerのサンプルで同じプロジェクトファ�
 
 ### サンプル ###
 
-* [Web上でサンプルを見る](http://smallomega.com/download/mvgame/RapidQuest/index.html)
+* [Web上でサンプルを見る](http://game.nicovideo.jp/atsumaru/games/gm220)
+* [紹介動画](http://www.nicovideo.jp/watch/sm27854032)
 
 ### 仕様 ###
 
@@ -48,7 +49,7 @@ BootOpeningDemo,URLQueryManagerのサンプルで同じプロジェクトファ�
 
 ### サンプル ###
 
-そのうち作る予定なの
+* ありません
 
 ### 仕様 ###
 
@@ -87,7 +88,7 @@ BootOpeningDemo,URLQueryManagerのサンプルで同じプロジェクトファ�
 
 ### サンプル ###
 
-* [Web上でサンプルを見る](http://smallomega.com/download/mvgame/RapidQuest/?chapter=URLQuery)
+* [紹介動画](http://www.nicovideo.jp/watch/sm29750297)
 
 ### 仕様 ###
 
