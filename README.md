@@ -6,12 +6,6 @@ RPGツクールMVのプラグインを置いています
 
 使用報告も不要ですがご連絡いただけた方がサポートなどしやすいと思います
 
-## サンプルダウンロード ##
-
-BootOpeningDemo,URLQueryManagerのサンプルで同じプロジェクトファイルに入っています
-
-* [サンプルプロジェクトのダウンロード](http://smallomega.com/download/mvplugins/project_BootOpeningDemo.zip)
-
 ## BootOpeningDemo ##
 
 ### サンプル ###
