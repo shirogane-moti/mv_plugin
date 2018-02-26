@@ -69,10 +69,7 @@
                 switch (args[0])
                 {
                     case 'end':
-                        openingDemoEnd = true;
-                        // タイトル画面へ遷移、通常のScene_Bootを開始する
-                        SceneManager.goto(Scene_Title);
-                        Window_TitleCommand.initCommandPosition();
+                        changeTitle();
                         break;
                     case 'skipOK':
                         openingDemoSkipOk = true;
@@ -162,15 +159,15 @@
     {
         _Scene_Map_update.call(this);
         // デモ中だけの処理でスキップ許可が出ていてシーン遷移中でない
-        if (!openingDemoEnd && 
+        if (!openingDemoEnd &&
             openingDemoSkipOk &&
             !SceneManager.isSceneChanging())
         {
             // 決定キーで遷移、タッチ操作で遷移
             if (TouchInput.isTriggered() || Input.isTriggered('ok'))
             {
-                // プラグインコマンドを入れたのと同じ動作をさせる
-                Game_Interpreter.prototype.pluginCommand.call(this, 'BootOpeningDemo', ['end']);
+                // タイトルへ遷移
+                changeTitle();
             }
         }
     }
@@ -208,4 +205,13 @@
         }
         return _Game_Interpreter_executeCommand.call(this);
     }
+
+    var changeTitle = function()
+    {
+        openingDemoEnd = true;
+        // タイトル画面へ遷移、通常のScene_Bootを開始する
+        SceneManager.goto(Scene_Title);
+        Window_TitleCommand.initCommandPosition();
+    }
+
 })();
