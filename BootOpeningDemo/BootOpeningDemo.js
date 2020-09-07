@@ -213,7 +213,7 @@
         if(Graphics._video.duration > 0)
         {
             Graphics._video.currentTime = Graphics._video.duration;
-            // スキップせずにタッチ
+            // Graphice._onTouchEndedで再度playさせないように
             Graphics._videoUnlocked = true
         }
         // タイトル画面へ遷移、通常のScene_Bootを開始する
