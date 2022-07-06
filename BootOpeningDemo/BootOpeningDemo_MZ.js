@@ -45,7 +45,7 @@
 
 (function() {
 
-    const pluginName = "BootOpeningDemo";
+    const pluginName = "BootOpeningDemo_MZ";
     
     var parameters  = PluginManager.parameters(pluginName);
     var firstMapId  = Number(parameters['firstMapId'] || 0);
